@@ -13,7 +13,7 @@
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
       <operator activated="true" class="retrieve" compatibility="9.9.002" expanded="true" height="68" name="Retrieve flickr" width="90" x="45" y="34">
-        <parameter key="repository_entry" value="../Data/flickr"/>
+        <parameter key="repository_entry" value="flickr"/>
         <description align="center" color="transparent" colored="false" width="126">Load flickr photo upload data</description>
       </operator>
       <operator activated="true" class="dbscan" compatibility="9.9.002" expanded="true" height="82" name="Clustering" width="90" x="179" y="34">
@@ -50,7 +50,7 @@
         <description align="center" color="transparent" colored="false" width="126">Remove outliers</description>
       </operator>
       <operator activated="true" class="write_csv" compatibility="9.9.002" expanded="true" height="82" name="Write CSV" width="90" x="447" y="85">
-        <parameter key="csv_file" value="{local_path}/Data/flickr clusters.csv"/>
+        <parameter key="csv_file" value="{local_path}/flickr clusters.csv"/>
         <parameter key="column_separator" value=";"/>
         <parameter key="write_attribute_names" value="true"/>
         <parameter key="quote_nominal_values" value="true"/>
