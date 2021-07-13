@@ -13,7 +13,7 @@
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
       <operator activated="true" class="retrieve" compatibility="9.8.001" expanded="true" height="68" name="Retrieve customers" width="90" x="45" y="34">
-        <parameter key="repository_entry" value="../Data/customers"/>
+        <parameter key="repository_entry" value="customers"/>
         <description align="center" color="transparent" colored="false" width="126">Retrieve customer dataset</description>
       </operator>
       <operator activated="true" class="subprocess" compatibility="9.8.001" expanded="true" height="82" name="Nominal to Numeric" width="90" x="179" y="34">
