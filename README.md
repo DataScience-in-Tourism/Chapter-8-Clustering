@@ -1,11 +1,12 @@
 # Chapter 8: Unsupervised Machine Learning Clustering
 
 ## Hierarchical, k-means, DBSCAN
+## http://www.datascience-in-tourism.com/
 
 ***Matthias Fuchs*** & ***Wolfram Höpken***
 
-* Mathias Fuchs - Department of Economics, Geography, Law and Tourism, Mid Sweden University
-* Wolfram Höpken - University of Applied Science Ravensburg-Weingarten
+* Department of Economics, Geography, Law and Tourism, Mid Sweden University
+* University of Applied Science Ravensburg-Weingarten
 
 ### Abstract
 
